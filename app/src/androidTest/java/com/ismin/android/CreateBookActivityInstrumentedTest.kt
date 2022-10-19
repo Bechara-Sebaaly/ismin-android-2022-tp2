@@ -22,6 +22,7 @@ import org.junit.runner.RunWith
  */
 @RunWith(AndroidJUnit4::class)
 class CreateBookActivityInstrumentedTest {
+    val CREATED_BOOK = "extra-book"
 
     @get:Rule
     val activityRule = ActivityScenarioRule(CreateBookActivity::class.java)
